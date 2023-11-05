@@ -5,7 +5,6 @@ This is a custom request handler for my [Homepage](https://gethomepage.dev) dash
 It currently supports:
 
 - [Minio](https://min.io) through [prometheus](https://min.io/docs/minio/linux/operations/monitoring/collect-minio-metrics-using-prometheus.html)
-- [Docspell](https://docspell.org)
 
 ## Environment variables
 
