@@ -1,0 +1,6 @@
+# VSCode
+.vscode
+# IntelliJ
+.idea
+# GoLang
+build
