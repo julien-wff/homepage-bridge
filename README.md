@@ -15,3 +15,15 @@ No default values are provided. If a required variable is not set, the applicati
 | `MINIO_ENDPOINT` | Minio prometheus endpoint URL | x        | `http://prometheus:9090` |
 | `MINIO_USERNAME` | Minio prometheus username     |          | `minio`                  |
 | `MINIO_PASSWORD` | Minio prometheus password     |          | `minio`                  |
+
+## Endpoints
+
+### `/api/v1/minio`
+
+```json
+{
+  "cluster_usage_bytes": "1234",
+  "cluster_bucket_count": "1",
+  "cluster_object_count": "12"
+}
+```
